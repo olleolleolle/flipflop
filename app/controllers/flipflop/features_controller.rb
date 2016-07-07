@@ -1,5 +1,5 @@
 module Flipflop
-  class FeaturesController < ApplicationController
+  class FeaturesController < ::ActionController::Base
     layout "flipflop"
 
     def index

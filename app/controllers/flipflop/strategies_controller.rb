@@ -1,5 +1,5 @@
 module Flipflop
-  class StrategiesController < ApplicationController
+  class StrategiesController < ::ActionController::Base
     include Engine.routes.url_helpers
 
     def update
